@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6471097C-0582-4DCC-98BC-F12F8E44615D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>УП3_приложение</RootNamespace>
+    <AssemblyName>УП3_приложение</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContraktAddFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContraktAddFm.Designer.cs">
+      <DependentUpon>ContraktAddFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddInfUserFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInfUserFm.Designer.cs">
+      <DependentUpon>AddInfUserFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministratorFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministratorFm.Designer.cs">
+      <DependentUpon>AdministratorFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ATSAddInformFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ATSAddInformFm.Designer.cs">
+      <DependentUpon>ATSAddInformFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ATSEditInformFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ATSEditInformFm.Designer.cs">
+      <DependentUpon>ATSEditInformFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvtorizFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvtorizFm.Designer.cs">
+      <DependentUpon>AvtorizFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContraktEditFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContraktEditFm.Designer.cs">
+      <DependentUpon>ContraktEditFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditInfFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditInfFm.Designer.cs">
+      <DependentUpon>EditInfFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditUserPhoneFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUserPhoneFm.Designer.cs">
+      <DependentUpon>EditUserPhoneFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneUserFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneUserFm.Designer.cs">
+      <DependentUpon>PhoneUserFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriceFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriceFm.Designer.cs">
+      <DependentUpon>PriceFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SotrudnikFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SotrudnikFm.Designer.cs">
+      <DependentUpon>SotrudnikFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelephoneСonnectionDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TelephoneСonnectionDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserPhoneAddFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPhoneAddFm.Designer.cs">
+      <DependentUpon>UserPhoneAddFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserPhoneEditFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPhoneEditFm.Designer.cs">
+      <DependentUpon>UserPhoneEditFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VedonostZvonkovFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VedonostZvonkovFm.Designer.cs">
+      <DependentUpon>VedonostZvonkovFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VidAtsFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VidAtsFm.Designer.cs">
+      <DependentUpon>VidAtsFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VidPhonFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VidPhonFm.Designer.cs">
+      <DependentUpon>VidPhonFm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ContraktAddFm.resx">
+      <DependentUpon>ContraktAddFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInfUserFm.resx">
+      <DependentUpon>AddInfUserFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministratorFm.resx">
+      <DependentUpon>AdministratorFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATSAddInformFm.resx">
+      <DependentUpon>ATSAddInformFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATSEditInformFm.resx">
+      <DependentUpon>ATSEditInformFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvtorizFm.resx">
+      <DependentUpon>AvtorizFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContraktEditFm.resx">
+      <DependentUpon>ContraktEditFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditInfFm.resx">
+      <DependentUpon>EditInfFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUserPhoneFm.resx">
+      <DependentUpon>EditUserPhoneFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneUserFm.resx">
+      <DependentUpon>PhoneUserFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceFm.resx">
+      <DependentUpon>PriceFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SotrudnikFm.resx">
+      <DependentUpon>SotrudnikFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPhoneAddFm.resx">
+      <DependentUpon>UserPhoneAddFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPhoneEditFm.resx">
+      <DependentUpon>UserPhoneEditFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VedonostZvonkovFm.resx">
+      <DependentUpon>VedonostZvonkovFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidAtsFm.resx">
+      <DependentUpon>VidAtsFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidPhonFm.resx">
+      <DependentUpon>VidPhonFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TelephoneСonnectionDBDataSet.xsc">
+      <DependentUpon>TelephoneСonnectionDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TelephoneСonnectionDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TelephoneСonnectionDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TelephoneСonnectionDBDataSet.xss">
+      <DependentUpon>TelephoneСonnectionDBDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
