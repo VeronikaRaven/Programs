@@ -1,0 +1,29 @@
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.csprojAssemblyReference.cache
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Dino.PlayDinoFm.resources
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.SelectGameF.resources
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.MainForm.resources
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Properties.Resources.resources
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.csproj.GenerateResource.cache
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.csproj.CoreCompileInputs.cache
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\bin\Debug\Сборник игр.exe.config
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\bin\Debug\Сборник игр.exe
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\bin\Debug\Сборник игр.pdb
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.exe
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.pdb
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Sudoku.GameF.resources
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Tag.TagFm.resources
+C:\Users\Лариса\Desktop\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Plays.Miner.GameMinerF.resources
+D:\Проект\Сборник игр\Сборник игр\bin\Debug\Сборник игр.exe.config
+D:\Проект\Сборник игр\Сборник игр\bin\Debug\Сборник игр.exe
+D:\Проект\Сборник игр\Сборник игр\bin\Debug\Сборник игр.pdb
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.csprojAssemblyReference.cache
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Dino.PlayDinoFm.resources
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Sudoku.GameF.resources
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Tag.TagFm.resources
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.SelectGameF.resources
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.MainForm.resources
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник_игр.Properties.Resources.resources
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.csproj.GenerateResource.cache
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.csproj.CoreCompileInputs.cache
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.exe
+D:\Проект\Сборник игр\Сборник игр\obj\Debug\Сборник игр.pdb
